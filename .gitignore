@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and editors
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+*.swp
+
+# Datasets and generated caches
+data/
+*.dat
+
+# Training artifacts (keep lightweight, curated figures under docs/assets)
+log/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Local reports and OS files
+report.docx
+report.pdf
+.DS_Store
+Thumbs.db
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example

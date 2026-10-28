@@ -1,0 +1,11 @@
+PointNet with FPS:
+python train_classification.py --model pointnet_cls --use_uniform_sample --process_data --log_dir pointnet_cls_fps
+python test_classification.py --log_dir pointnet_cls_fps --use_uniform_sample
+
+PointNet++ SSG with FPS:
+python train_classification.py --model pointnet2_cls_ssg --use_uniform_sample --process_data --log_dir pointnet2_cls_ssg_fps
+python test_classification.py --log_dir pointnet2_cls_ssg_fps --use_uniform_sample
+
+DGCNN with FPS:
+python train_classification.py --model dgcnn_cls --use_uniform_sample --process_data --log_dir dgcnn_cls_fps
+python test_classification.py --log_dir dgcnn_cls_fps --use_uniform_sample
