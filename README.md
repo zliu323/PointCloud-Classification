@@ -110,11 +110,3 @@ python analyze.py --log_dir dgcnn_cls_fps --use_uniform_sample --num_votes 3
 # 绘制训练曲线和模型对比图
 python visualize_training.py --log_dirs pointnet_cls_fps pointnet2_cls_ssg_fps dgcnn_cls_fps
 ```
-
-## 仓库内容
-
-仓库已通过 `.gitignore` 排除数据集、权重、完整训练日志、虚拟环境和本地报告。若需要发布权重，建议使用 GitHub Releases 或其他模型托管服务，并在 README 中提供下载链接，不要直接提交到 Git 历史。
-
-## 致谢与许可
-
-本项目实现参考了 PointNet、PointNet++ 和 DGCNN 的论文与常见 PyTorch 实现。正式公开前，请根据实际采用的上游代码补充准确的来源链接和版权声明，并选择合适的开源许可证；在许可证明确之前，仓库默认保留所有权利。
