@@ -111,7 +111,7 @@ python analyze.py --log_dir dgcnn_cls_fps --use_uniform_sample --num_votes 3
 python visualize_training.py --log_dirs pointnet_cls_fps pointnet2_cls_ssg_fps dgcnn_cls_fps
 ```
 
-## 上传 GitHub 前
+## 仓库内容
 
 仓库已通过 `.gitignore` 排除数据集、权重、完整训练日志、虚拟环境和本地报告。若需要发布权重，建议使用 GitHub Releases 或其他模型托管服务，并在 README 中提供下载链接，不要直接提交到 Git 历史。
 
